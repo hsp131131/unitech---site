@@ -5,6 +5,7 @@ import { useState } from "react";
 export default function Home() {
   const [lang, setLang] = useState<"en" | "zh">("en");
 
+  // Translations
   const t = {
     brand: {
       en: "Unitech Chemical Ltd.",
@@ -23,7 +24,7 @@ export default function Home() {
       spans an area of 78,000 sqm and specializes in drilling fluid additives and fine chemicals. 
       Located in Kaiping City, Guangdong, at the heart of the Greater Bay Area, the company benefits 
       from excellent transport links. Our products are exported to 50+ countries worldwide and trusted 
-      by global leaders such as Schlumberger, Baker Hughes, and Halliburton, as well as CNPC, Sinopec, and CNOOC.`,
+      by Schlumberger, Baker Hughes, Halliburton, as well as CNPC, Sinopec, and CNOOC.`,
       zh: `开平联技化工有限公司成立于2006年，占地面积78,000平方米，注册资金2584.89万元，
       主要生产经营油田钻井液助剂及精细化工产品。公司位于粤港澳大湾区核心地带，交通便利。
       产品远销亚洲、美洲、非洲、欧洲等50多个国家，是斯伦贝谢、贝克休斯、哈里伯顿等国际巨头，
