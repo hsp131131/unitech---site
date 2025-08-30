@@ -122,13 +122,21 @@ export default function Home() {
       </header>
 
       {/* Hero */}
-      <section className="text-center py-16 bg-gradient-to-b from-blue-50 to-white">
-        <h2 className="text-2xl md:text-4xl font-bold mb-4">{t.tagline[lang]}</h2>
-        <p className="text-lg mb-6">{t.welcome[lang]}</p>
-        <button className="bg-blue-600 text-white px-6 py-2 rounded">
-          {lang === "en" ? "Request Consultation" : "立即咨询"}
-        </button>
-      </section>
+<section className="text-center py-16 bg-gradient-to-b from-blue-50 to-white">
+  <h2 className="text-3xl md:text-5xl font-extrabold mb-6 leading-snug max-w-4xl mx-auto capitalize"
+    {t.tagline[lang]
+      .split(" — ") // split into two balanced rows
+      .map((line, i) => (
+        <span key={i} className="block">
+          {line}
+        </span>
+      ))}
+  </h2>
+  <p className="text-lg mb-6">{t.welcome[lang]}</p>
+  <button className="bg-blue-600 hover:bg-blue-700 transition text-white font-semibold px-8 py-3 rounded-lg shadow-md"
+    {lang === "en" ? "Request Consultation" : "立即咨询"}
+  </button>
+</section>
 
       {/* About */}
       <section id="about" className="max-w-5xl mx-auto px-6 py-16">
