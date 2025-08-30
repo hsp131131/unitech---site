@@ -1,15 +1,25 @@
 export default function AboutPage() {
   return (
-    <main className="max-w-5xl mx-auto p-8">
-      <h1 className="text-4xl font-bold mb-6">About Us</h1>
-      <p className="text-lg text-gray-700 leading-relaxed mb-4">
-        Founded in 2006, Unitech Chemical Ltd. specializes in oilfield drilling fluid additives and fine chemicals.
-        We are headquartered in Kaiping City, Guangdong Province — a hub of the Greater Bay Area with rich cultural heritage
-        and excellent logistics access.
+    <main className="max-w-5xl mx-auto px-6 py-16">
+      <h1 className="text-3xl font-bold mb-6">About Us</h1>
+      <p className="mb-4">
+        Founded in 2006, Unitech Chemical Ltd. spans an area of 78,000 sqm and
+        specializes in drilling fluid additives and fine chemicals.
       </p>
-      <p className="text-lg text-gray-700 leading-relaxed">
-        Our products are exported to 50+ countries across Asia, the Americas, Africa, and Europe, and we are trusted by
-        leading global energy companies and major Chinese national corporations such as CNPC, Sinopec, and CNOOC.
+      <p className="mb-4">
+        Located in Kaiping City, Guangdong Province — at the heart of the Greater Bay
+        Area — the company benefits from excellent transport links.
+      </p>
+      <p className="mb-4">
+        Our products are exported to more than 50 countries worldwide and trusted by
+        global leaders such as Schlumberger, Baker Hughes, and Halliburton, as well
+        as major national oil corporations including CNPC, Sinopec, and CNOOC.
+      </p>
+      <p className="mb-4">
+        We maintain an experienced team specializing in R&D, manufacturing, and
+        technical support. Our portfolio includes water-based additives (fluid loss
+        reducers, shale inhibitors, viscosifiers, lubricants) as well as oil-based /
+        synthetic-based drilling fluid systems.
       </p>
     </main>
   );
