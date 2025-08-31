@@ -1,6 +1,6 @@
 // app/layout.tsx
 import type { Metadata } from "next";
-import { ReactNode } from "react";   // ✅ add this import
+import { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
