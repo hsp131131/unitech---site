@@ -11,7 +11,7 @@ export default function Home() {
       zh: "开平联技化工有限公司",
     },
     tagline: {
-      en: "High-Performance Oilfield And Process Additives — Made In China, Trusted Worldwide.",
+      en: "High-Performance Oilfield And Process Additives — Made In China, Trusted Worldwide",
       zh: "高性能油田和化工助剂 — 中国制造，全球信赖。",
     },
     welcome: {
